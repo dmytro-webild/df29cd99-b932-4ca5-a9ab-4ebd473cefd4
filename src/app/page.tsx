@@ -31,7 +31,6 @@ export default function LandingPage() {
       <div id="nav" data-section="nav">
         <NavbarStyleCentered
           brandName="Josef Kiermaier"
-          logoText="Josef Kiermaier Elektroinstallationen"
           navItems={[
             { name: "Start", id: "#hero" },
             { name: "Über Uns", id: "#about" },
@@ -60,7 +59,7 @@ export default function LandingPage() {
           testimonialRotationInterval={5000}
           useInvertedBackground={false}
           buttons={[{ text: "Kostenlos anfragen", href: "#contact" }]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="slide-up"
           avatars={[
             { src: "http://img.b2bpic.net/free-photo/happy-builder-man-construction-vest-safety-helmet-looking-camera-smiling-cheerfully-standing-orange_141793-109139.jpg", alt: "Customer 1" },
             { src: "http://img.b2bpic.net/free-photo/real-professional-smiling-businesswoman-looking-confident-determined-face-expression-standing-suit-white-background_1258-122910.jpg", alt: "Customer 2" },
@@ -70,7 +69,7 @@ export default function LandingPage() {
           avatarText="Trusted by hundreds of happy customers"
           imageSrc="http://img.b2bpic.net/free-photo/male-electrician-works-switchboard-using-electrical-connection-cable_169016-51895.jpg"
           imageAlt="Elektriker bei der Arbeit am Sicherungskasten"
-          mediaAnimation="entrance-slide"
+          mediaAnimation="slide-up"
           imagePosition="right"
           fixedMediaHeight={true}
         />
@@ -83,7 +82,7 @@ export default function LandingPage() {
             { icon: CheckCircle, label: "Zufriedene Kunden", value: "500+" },
             { icon: Award, label: "Abgeschlossene Projekte", value: "1000+" }
           ]}
-          metricsAnimation="entrance-slide"
+          metricsAnimation="slide-up"
           useInvertedBackground={true}
         />
       </div>
@@ -154,7 +153,7 @@ export default function LandingPage() {
             { id: "q3", title: "Wie erhalte ich ein Angebot für mein Projekt?", content: "Sie können uns ganz einfach über unser Kontaktformular, telefonisch oder per E-Mail erreichen. Wir vereinbaren gerne einen Termin für eine kostenlose Beratung und erstellen Ihnen ein unverbindliches Angebot." },
             { id: "q4", title: "Bieten Sie auch Notfall-Services an?", content: "Für unsere Bestandskunden bieten wir einen Notfall-Service an. Bitte kontaktieren Sie uns bei dringenden Anliegen direkt telefonisch." }
           ]}
-          faqsAnimation="entrance-slide"
+          faqsAnimation="slide-up"
           textPosition="left"
           useInvertedBackground={false}
         />
@@ -171,8 +170,8 @@ export default function LandingPage() {
             { src: "http://img.b2bpic.net/free-photo/skilled-businessman-his-office-desk-working-report-writing_482257-107893.jpg", alt: "Felix Weber" },
             { src: "http://img.b2bpic.net/free-photo/happy-businesswoman-her-coworkers-clapping-hands-meeting-office_637285-207.jpg", alt: "Anna Maier" }
           ]}
-          ratingAnimation="entrance-slide"
-          avatarsAnimation="entrance-slide"
+          ratingAnimation="slide-up"
+          avatarsAnimation="slide-up"
           useInvertedBackground={true}
         />
       </div>
@@ -185,7 +184,7 @@ export default function LandingPage() {
           useInvertedBackground={false}
           imageSrc="http://img.b2bpic.net/free-photo/view-vibrant-city-night_52683-100068.jpg"
           imageAlt="Elektriker mit Werkzeugkasten und Bauplänen"
-          mediaAnimation="entrance-slide"
+          mediaAnimation="slide-up"
           mediaPosition="right"
           inputPlaceholder="Ihre E-Mail-Adresse"
           buttonText="Jetzt anfragen"
@@ -201,7 +200,6 @@ export default function LandingPage() {
             { title: "Kontakt", items: [{ label: "Anfrage", href: "#contact" }, { label: "Impressum", href: "#" }, { label: "Datenschutz", href: "#" }] }
           ]}
           copyrightText="© 2024 Josef Kiermaier Elektroinstallationen. Alle Rechte vorbehalten."
-          useInvertedBackground={true}
         />
       </div>
     </ThemeProvider>
